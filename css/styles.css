@@ -1,0 +1,130 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+h1{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+a{
+    font-family: "Roboto", sans-serif;
+    font-weight: regular;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 4%;
+    font-style: normal;
+}
+
+li{
+    list-style-type: none;
+}
+
+/*HEADER*/
+
+.anamenu{
+    background-color: #ffffff;
+}
+
+.logo-web{
+    color: #4D5AE5;
+}
+
+.studio:hover, .portfolio:hover, .contacts:hover{
+    color: #404BBF;
+}
+
+.studio:active{
+    text-decoration: underline;
+}
+
+.address1:hover, .address2:hover{
+    color: #404BBF;
+}
+
+/*SLIDER*/
+
+.slider{
+    background-color: #2E2F42;
+    text-align: center;
+}
+
+.slider-title{
+    color: #ffffff;
+}
+
+
+.button{
+    font-family: "Roboto", sans-serif;
+    font-weight: medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #4D5AE5;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover{
+    background-color: #404BBF;
+}
+
+/*OUR-TEAM*/
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.team li{
+    background-color: #FFFFFF;
+    width: fit-content;
+    text-align: center;
+}
+
+.team h2{
+    text-align: center;
+}
+
+/*OUR-PORTFOLIO*/
+
+.our-portfolio{
+    text-align: center;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer>p{
+    color: #F4F4FD;
+}
+
+.logo-studio-footer{
+    color: #F4F4FD;
+}
