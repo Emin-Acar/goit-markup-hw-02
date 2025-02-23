@@ -4,7 +4,8 @@ body {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 2%;
-    color: #2E2F42;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h1{
@@ -48,16 +49,44 @@ li{
     background-color: #ffffff;
 }
 
+.menu li{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 .logo-web{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #4D5AE5;
 }
 
+.logo-studio{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #2e2f42;
+}
 .studio:hover, .portfolio:hover, .contacts:hover{
     color: #404BBF;
 }
 
-.studio:active{
+.studio:focus{
     text-decoration: underline;
+}
+
+.address li{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .address1:hover, .address2:hover{
@@ -72,16 +101,18 @@ li{
 }
 
 .slider-title{
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: #ffffff;
 }
 
 
 .button{
     font-family: "Roboto", sans-serif;
-    font-weight: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-align: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
@@ -93,10 +124,35 @@ li{
     background-color: #404BBF;
 }
 
+.button:focus {
+    background-color: #404BBF;
+}
+
+/*OUR-MISSION*/
+
+.mis-1{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.mis-1-text{
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
 /*OUR-TEAM*/
 
 .team{
     background-color: #F4F4FD;
+}
+
+.team h2 {
+    text-align: center;
+}
+.our-team{
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
 }
 
 .team li{
@@ -105,8 +161,15 @@ li{
     text-align: center;
 }
 
-.team h2{
-    text-align: center;
+.card-1{
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.card-1-text{
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 /*OUR-PORTFOLIO*/
@@ -126,5 +189,15 @@ li{
 }
 
 .logo-studio-footer{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: #F4F4FD;
+}
+
+.footer-text{
+    letter-spacing: 0.02em;
 }
