@@ -113,11 +113,18 @@ li{
     color: #404BBF;
 }
 
+.studio, .portfolio, .contacts {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
 
 /*SLIDER*/
 
 .slider{
     background-color: #2E2F42;
+    text-align: center;
 }
 
 .slider-title{
@@ -133,7 +140,7 @@ li{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
-   
+    text-align: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -166,7 +173,9 @@ li{
     background-color: #F4F4FD;
 }
 
-
+.team h2 {
+    text-align: center;
+}
 .our-team{
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -176,7 +185,7 @@ li{
 .team li{
     background-color: #FFFFFF;
     width: fit-content;
-    
+    text-align: center;
 }
 
 .card{
@@ -192,7 +201,9 @@ li{
 
 /*OUR-PORTFOLIO*/
 
-
+.our-portfolio{
+    text-align: center;
+}
 
 .our-portfolio-text{
     letter-spacing: 0.02em;
