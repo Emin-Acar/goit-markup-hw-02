@@ -78,15 +78,27 @@ li{
     text-transform: uppercase;
     color: #2e2f42;
 }
-.studio:hover, .portfolio:hover, .contacts:hover{
+
+.menu-li {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-li:hover{
     color: #404BBF;
 }
 
-.studio:focus{
+.menu-li:focus{
+    color: #404BBF;
     text-decoration: underline;
 }
 
-.mail, .tel{
+.address{
+    font-style: normal;
+}
+.address-li{
     font-size: 16px;
     font-style: normal;
     line-height: 1.5;
@@ -94,16 +106,13 @@ li{
     color: #434455;
 }
 
-.mail:hover, .tel:hover{
+.address-li:hover{
+    color: #404BBF;
+}
+.address-li:focus{
     color: #404BBF;
 }
 
-.studio, .portfolio, .contacts {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #2E2F42;
-}
 
 /*SLIDER*/
 
