@@ -76,7 +76,7 @@ li{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #F4F4FD;
 }
 
 .menu-li {
@@ -124,7 +124,7 @@ li{
 
 .slider{
     background-color: #2E2F42;
-    text-align: center;
+
 }
 
 .slider-title{
@@ -140,7 +140,6 @@ li{
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #FFFFFF;
     background-color: #4D5AE5;
     cursor: pointer;
@@ -185,7 +184,7 @@ li{
 .team li{
     background-color: #FFFFFF;
     width: fit-content;
-    text-align: center;
+   
 }
 
 .card{
@@ -201,9 +200,7 @@ li{
 
 /*OUR-PORTFOLIO*/
 
-.our-portfolio{
-    text-align: center;
-}
+
 
 .our-portfolio-text{
     letter-spacing: 0.02em;
@@ -222,7 +219,7 @@ li{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #F4F4FD;
 }
 
 .footer-text{
