@@ -76,7 +76,7 @@ li{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #F4F4FD;
+    color: #2e2f42;
 }
 
 .menu-li {
@@ -130,6 +130,7 @@ li{
 .slider-title{
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
     color: #ffffff;
 }
 
@@ -204,6 +205,10 @@ li{
 
 .our-portfolio-text{
     letter-spacing: 0.02em;
+}
+
+.our-portfolio-h2{
+    text-align: center;
 }
 
 /*FOOTER*/
